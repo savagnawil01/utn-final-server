@@ -1,0 +1,30 @@
+{
+  "name": "utn-final-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./src/app.js",
+  "type": "module",
+  "scripts": {
+    "start": "cross-env NODE_ENV=production node",
+    "dev": "cross-env NODE_ENV=development nodemon",
+    "lint": "eslint . --fix"
+  },
+  "author": "Luis Savagna",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.1.0",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "mysql": "^2.18.1",
+    "util": "^0.12.5"
+  },
+  "devDependencies": {
+    "cross-env": "^7.0.3",
+    "eslint": "^8.28.0",
+    "eslint-config-standard": "^17.0.0",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-n": "^15.5.1",
+    "eslint-plugin-promise": "^6.1.1",
+    "nodemon": "^2.0.20"
+  }
+}
